@@ -29,8 +29,8 @@ a {
   cursor: pointer;
   height: 64px;
   position: absolute;
-  top: 2%;
-  left: 1%;
+  top: 0%;
+  right: 0%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -84,8 +84,8 @@ a {
   color: transparent;
   height: 64px;
   position: absolute;
-  top: 2%;
-  left: 1%;
+  top: 0%;
+  right: 0%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
