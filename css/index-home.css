@@ -9,7 +9,7 @@
 
 body {
   /*background: url("http://www.philippefercha.com/cd/toggle-menu-bg.jpg") no-repeat; */
-  background: #808080;
+  background: #ffffff; /*#808080;*/
   background-size:2000px;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -38,18 +38,18 @@ a {
   width: 64px;
 }
 .menu-opener:hover, .menu-opener.active {
-  background: #f1c40f;
+  background: #193E5D;  /* #f1c40f;*/
 }
 
 .menu-opener-inner {
-  background: #fff;
+  background: #f1c40f;
   height: .5rem;
   margin-left: .75rem;
   margin-top: 1.75rem;
   width: 2.5rem;
 }
 .menu-opener-inner::before, .menu-opener-inner::after {
-  background: white;
+  background: #f1c40f;
   content: '';
   display: block;
   height: .5rem;
@@ -80,7 +80,7 @@ a {
 }
 
 .menu {
-  background: #f1c40f;
+  background: #193E5D; /*f1c40f;*/
   color: transparent;
   height: 64px;
   position: absolute;
