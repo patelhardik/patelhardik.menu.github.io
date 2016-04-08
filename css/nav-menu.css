@@ -11,7 +11,8 @@
   height: 64px;
   position: absolute;
   top: 0%;
-  right: 0%;
+  /*right: 0%;*/
+  left: 0%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -70,14 +71,15 @@
   background: #193E5D; /* Drak Blue - From Kensoc */
   color: transparent;
   height: 64px;
+  width: 0rem;
   position: absolute;
   top: 0%;
-  right: 0%;
+  /*right: 0%;*/
+  left: 0%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 0rem;
   z-index: -1;
 }
 .menu.active {
@@ -101,8 +103,8 @@
   height: 100%;
   list-style-type: none;
   margin: 0;
-  margin-left: 0rem;
-  margin-right: 4rem;
+  margin-left: 4rem;
+  margin-right: 0rem;
   padding: 0;
 }
 
