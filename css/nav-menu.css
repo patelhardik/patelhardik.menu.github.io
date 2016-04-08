@@ -18,19 +18,23 @@
   user-select: none;
   width: 64px;
 }
-.nav-menu-box:hover, .nav-menu-box.active {
-  background: #193E5D; /* Drak Blue - From Kensoc */
+.nav-menu-box:hover {
+  background: white;
+}
+
+.nav-menu-box.active {
+  background: #193E5D;  /*Drak Blue - From Kensoc */
 }
 
 .nav-menu-box-inner {
-  background: #f1c40f; /* Yellow */
+  background: #193E5D; /* #f1c40f Yellow */
   height: .5rem;
   margin-left: .75rem;
   margin-top: 1.75rem;
   width: 2.5rem;
 }
 .nav-menu-box-inner::before, .nav-menu-box-inner::after {
-  background: #f1c40f; /* Yellow */
+  background: #193E5D; /* #f1c40f Yellow */
   content: '';
   display: block;
   height: .5rem;
@@ -50,11 +54,13 @@
   background: transparent;
 }
 .nav-menu-box-inner.active::before {
+  background: white; /*#f1c40f;*/ /* Yellow */
   -webkit-transform: translateY(0rem) rotate(-45deg);
   -ms-transform: translateY(0rem) rotate(-45deg);
   transform: translateY(0rem) rotate(-45deg);
 }
 .nav-menu-box-inner.active::after {
+  background: white; /*#f1c40f;*/ /* Yellow */
   -webkit-transform: translateY(-0.5rem) translateX(0rem) rotate(45deg);
   -ms-transform: translateY(-0.5rem) translateX(0rem) rotate(45deg);
   transform: translateY(-0.5rem) translateX(0rem) rotate(45deg);
@@ -75,8 +81,8 @@
   z-index: -1;
 }
 .menu.active {
-  width: -webkit-calc(30% - 2rem);
-  width: calc(30% - 2rem);
+  width: -webkit-calc(40% - 2rem);
+  width: calc(40% - 2rem);
 }
 .menu.active .menu-link {
   color: white;
@@ -132,7 +138,7 @@
     font-size: 1.2em;
   }
   .menu.active {
-    width: -webkit-calc(30% - 0.5rem);
-    width: calc(30% - 0.5rem);
+    width: -webkit-calc(40% - 0.5rem);
+    width: calc(40% - 0.5rem);
   }
 }
